@@ -352,7 +352,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1316774184}
   - component: {fileID: 1316774183}
-  - component: {fileID: 1316774189}
+  - component: {fileID: 1316774186}
+  - component: {fileID: 1316774185}
+  - component: {fileID: 1316774187}
   m_Layer: 0
   m_Name: Circle (1)
   m_TagString: Untagged
@@ -427,7 +429,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1316774189
+--- !u!114 &1316774185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316774182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08419adfb38f2954a9026dcbe37ec4fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj1: {fileID: 1316774182}
+  obj2: {fileID: 2141452528}
+--- !u!114 &1316774186
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -444,6 +460,20 @@ MonoBehaviour:
   MoveLeft: 97
   MoveRight: 100
   speed: 3
+--- !u!114 &1316774187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316774182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08419adfb38f2954a9026dcbe37ec4fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj1: {fileID: 1316774182}
+  obj2: {fileID: 1990486458}
 --- !u!1 &1990486458
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,6 +485,8 @@ GameObject:
   - component: {fileID: 1990486460}
   - component: {fileID: 1990486459}
   - component: {fileID: 1990486462}
+  - component: {fileID: 1990486463}
+  - component: {fileID: 1990486464}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -546,6 +578,34 @@ MonoBehaviour:
   MoveLeft: 106
   MoveRight: 108
   speed: 3
+--- !u!114 &1990486463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990486458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08419adfb38f2954a9026dcbe37ec4fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj1: {fileID: 1990486458}
+  obj2: {fileID: 1316774182}
+--- !u!114 &1990486464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990486458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08419adfb38f2954a9026dcbe37ec4fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj1: {fileID: 1990486458}
+  obj2: {fileID: 2141452528}
 --- !u!1 &2141452528
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,6 +617,8 @@ GameObject:
   - component: {fileID: 2141452530}
   - component: {fileID: 2141452529}
   - component: {fileID: 2141452532}
+  - component: {fileID: 2141452533}
+  - component: {fileID: 2141452534}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -648,6 +710,34 @@ MonoBehaviour:
   MoveLeft: 102
   MoveRight: 104
   speed: 3
+--- !u!114 &2141452533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141452528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08419adfb38f2954a9026dcbe37ec4fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj1: {fileID: 2141452528}
+  obj2: {fileID: 1316774182}
+--- !u!114 &2141452534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141452528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08419adfb38f2954a9026dcbe37ec4fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj1: {fileID: 2141452528}
+  obj2: {fileID: 1990486458}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
