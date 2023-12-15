@@ -18,7 +18,7 @@ public class Ground : MonoBehaviour
 
         if (collision)
         {
-            // If collision occurs, set the y position of obj1 to -4
+            
             Vector3 newPosition = obj1.transform.position;
             newPosition.y = -4f;
             obj1.transform.position = newPosition;

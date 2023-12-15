@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class Impulse_Force : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject obj1;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            Vector3 newPosition = obj1.transform.position;
+            newPosition.y = 5;
+            obj1.transform.position = newPosition;
+        }
+      
     }
 }

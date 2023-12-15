@@ -133,6 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 139409457}
   - component: {fileID: 139409456}
+  - component: {fileID: 139409459}
+  - component: {fileID: 139409458}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -207,6 +209,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &139409458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139409455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5408a4277b852b4b9bba8731051f160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mass: 15
+--- !u!114 &139409459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139409455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d81d849974b237439ef08c2565e84cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj1: {fileID: 139409455}
+  obj2: {fileID: 1234421960}
 --- !u!1 &640958450
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,6 +467,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1651474725}
   - component: {fileID: 1651474724}
+  - component: {fileID: 1651474727}
+  - component: {fileID: 1651474726}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -512,6 +543,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1651474726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651474723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5408a4277b852b4b9bba8731051f160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mass: 10
+--- !u!114 &1651474727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651474723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d81d849974b237439ef08c2565e84cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj1: {fileID: 1651474723}
+  obj2: {fileID: 1234421960}
 --- !u!1 &2055707224
 GameObject:
   m_ObjectHideFlags: 0
@@ -522,6 +580,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2055707226}
   - component: {fileID: 2055707225}
+  - component: {fileID: 2055707229}
+  - component: {fileID: 2055707228}
+  - component: {fileID: 2055707227}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -596,6 +657,46 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2055707227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055707224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fec2bdb4a64b9b4fa938273d994ad99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj1: {fileID: 2055707224}
+--- !u!114 &2055707228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055707224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5408a4277b852b4b9bba8731051f160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mass: 30
+--- !u!114 &2055707229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055707224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d81d849974b237439ef08c2565e84cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj1: {fileID: 2055707224}
+  obj2: {fileID: 1234421960}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
