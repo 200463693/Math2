@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 139409456}
   - component: {fileID: 139409459}
   - component: {fileID: 139409458}
+  - component: {fileID: 139409460}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -236,6 +237,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj1: {fileID: 139409455}
   obj2: {fileID: 1234421960}
+--- !u!114 &139409460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139409455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fec2bdb4a64b9b4fa938273d994ad99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj1: {fileID: 139409455}
 --- !u!1 &640958450
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,6 +483,7 @@ GameObject:
   - component: {fileID: 1651474724}
   - component: {fileID: 1651474727}
   - component: {fileID: 1651474726}
+  - component: {fileID: 1651474728}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -570,6 +585,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj1: {fileID: 1651474723}
   obj2: {fileID: 1234421960}
+--- !u!114 &1651474728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651474723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fec2bdb4a64b9b4fa938273d994ad99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj1: {fileID: 1651474723}
 --- !u!1 &2055707224
 GameObject:
   m_ObjectHideFlags: 0
